@@ -7,7 +7,7 @@ It includes:
 - A **Flask web app** with an HTML form for predictions
 - AWS Elastic Beanstalk configuration (`.ebextensions/python.config`)
 
----
+
 
 ## Project Overview
 
@@ -35,28 +35,4 @@ How It Works (App Flow)
 
 
 
-## Folder Structure
-AlgML-main/
-│
-├── application.py # Flask app entrypoint
-├── requirements.txt # Python dependencies
-├── .ebextensions/
-│ └── python.config # Elastic Beanstalk WSGI configuration
-│
-├── datasets/
-│ ├── Algerian_forest_fires_cleaned_dataset.csv
-│ └── Algerian_forest_fires_dataset_UPDATE.csv
-│
-├── models/
-│ ├── ridge.pkl # trained Ridge model
-│ └── scaler.pkl # fitted StandardScaler
-│
-├── notebooks/
-│ ├── Model Training.ipynb
-│ ├── Ridge, Lasso Regression.ipynb
-│ └── md_training.ipynb
-│
-└── templates/
-├── index.html # home page
-└── home.html # prediction page + result
 
